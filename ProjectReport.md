@@ -1,32 +1,27 @@
 # Project Report
 
-(Put your name here)
-
-## Markdown Tips
-
-If you are unfamiliar with MarkDown, check out 
-[the official documentation](https://guides.github.com/features/mastering-markdown/).
-
-Note that IntelliJ IDEA has a Markdown preview that you can access in 
-the upper-right of the editor. Also, since Markdown documents&mdash;like
-source code&mdash;should be human-readable, make sure you keep your lines
-short, as you can see I have done in my Markdown files.
-
-Please remove this subsection before submitting your report. 
+Kaleb Matchett
 
 ## Challenge #1 Complete
 
-(Explain your solution to Challenge #1. If it is not complete, change
-the subsection title above to "Incomplete" and explain how far you got
-and where you got stuck.)
+My solution for challenge #1 was to modify class "QueryEngineModule.java".
 
-## Challenge #2 Complete
+In the Override, the original code had the line:
+"bind(QueryEngine.class).to(FakeQueryEngine.class);"
+I instead changed this to:
+"bind(QueryEngine.class).to(WikipediaQueryEngine.class);"
+
+I also had to modify the import statement for this class.
+I changed "import edu.bsu.cs.model.FakeQueryEngine;" to 
+"import edu.bsu.cs.model.WikipediaQueryEngine;"
+
+## Challenge #2 Incomplete
 
 (Explain your solution to Challenge #2. If it is not complete, change
 the subsection title above to "Incomplete" and explain how far you got
 and where you got stuck.)
 
-## Challenge #3 Complete
+## Challenge #3 Incomplete
 
 (Explain your solution to Challenge #3. If it is not complete, change
 the subsection title above to "Incomplete" and explain how far you got
